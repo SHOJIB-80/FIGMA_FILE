@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p ul{
+    margin: 0;
+    padding: 0;
+}
+/*font-family: 'Poppins', sans-serif;*/
+
+
+/* header css starts here */
+
+header ul li a{
+    font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+background: rgba(0, 0, 0, 1);
+
+}
+header ul li a:hover{
+
+    color: rgb(107, 63, 129) !important;
+}
+header{
+    background-color: #F0FFF0;
+    min-height: 100vh;
+}
+.btn_custom{
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: #21b573;
+}
+.container h1{
+
+    font-family: 'Poppins', sans-serif;
+
+font-size: 48px;
+
+font-weight: 700;
+
+line-height: 70px;
+
+letter-spacing: 0em;
+
+text-align: left;
+
+color: black;
+}
+.container h5{
+
+color: rgba(253, 81, 26, 1);
+
+font-family: 'Poppins', sans-serif;
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 24px;
+
+/* letter-spacing: 0em; */
+
+text-align: left;
+}
+.container p{
+
+    font-family: 'Poppins', sans-serif;
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 36px;
+
+letter-spacing: 0em;
+
+text-align: left;
+
+color: #6C6B6B;
+}
+.container span{
+    color: #21b573;
+    
+}
+
+/* header css ends here */
+
+
+
+
+/* feature_section css starts here*/
+
+.feature_content{
+padding: 50px 0px;
+background-color: #F8FFF8;
+
+text-align: center;
+}
+.feature_content h2{
+
+    font-family: 'Poppins', sans-serif;
+
+font-size: 24px;
+
+font-weight: 500;
+
+line-height: 36px;
+
+letter-spacing: 0em;
+
+text-align:center;
+
+color: #413960;
+}
+.feature_content p{
+
+    font-family: 'Poppins', sans-serif;
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 24px;
+
+letter-spacing: 0em;
+
+text-align: center;
+
+color: #585859;
+}
+.feature_section{ 
+    margin: 20px 0px;
+
+}
+.feature_content img{
+    width: 15%;
+   
+}
+.feature_content:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+
+}
+/* feature_section css ends here*/
+
+/*  course css starts here */
+
+
+.course h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #413960;}
+.course h5{
+
+    font-family: 'Poppins', sans-serif;
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 24px;
+
+letter-spacing: 0em;
+
+text-align: left;
+}
+.course a{
+
+}
+.course ul {
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 0px;
+}
+.course ul li {
+
+color: #585859;
+
+font-size: 16px;
+
+line-height: 24px;
+
+/* text-align: left; */
+}
+
+.course_btn{
+
+color: #fff;
+
+padding: 0px;
+
+padding: 6px 12px;
+
+font-size: 16px;
+
+line-height: 19px;
+
+border-radius: 50px;
+
+margin: 20px 0;
+background-color: #21b573;
+}
+
+.course img{
+
+}
+
+.course ul li i{
+
+margin-right: 10px;
+}
+ .course{
+    
+background: #fff;
+    
+padding: 20px;
+    
+box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+ }
+ .heading h1{
+    
+    font-family: 'Poppins', sans-serif;
+    
+font-size: 36px;
+    
+font-weight: 700;
+    
+line-height: 54px;
+    
+letter-spacing: 0em;
+    
+text-align: center;
+color: rgba(65, 57, 96, 1);
+
+ }
+ .course_btn:hover{
+    background-color: #166742;
+ }
+
+
+/*  course css ends here */
+
+/* client css starts here */
+
+.client{
+
+width: 40%;
+
+margin-left: auto;
+
+border: 1px solid #c3bcc3;
+
+border-radius: 50px;
+
+overflow: hidden;
+
+
+}
+.client img{
+}
+.testimonial_section p{
+    
+    font-family: 'Poppins', sans-serif;
+    
+font-size: 16px;
+    
+font-weight: 400;
+    
+line-height: 30px;
+    
+letter-spacing: 0em;
+    
+text-align: left;
+    
+color: rgba(0, 0, 0, 1);
+}
+
+/* client css ends here */
+
+/* footer css starts here */
+
+footer{
+
+background: #282531;
+
+color: #fff;
+}
+.footer_P{
+font-family: 'Poppins', sans-serif;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff !important;
+
+
+}
+footer ul{
+
+list-style: none;
+}
+footer ul li{
+ font-family: 'Poppins', sans-serif;
+    
+font-size: 16px;
+    
+font-weight: 300;
+    
+line-height: 30px;
+    
+letter-spacing: 0em;
+    
+text-align: left;
+}
+footer ul li:first-child{
+    font-weight: 700;
+}
+
+.footer_2p{
+    font-family: 'Poppins', sans-serif;
+
+font-weight: 150 !important;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center !important;
+color: #fff !important;
+
+
+}
+
+
+
+
+/* footer css ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
